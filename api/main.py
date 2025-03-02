@@ -3,4 +3,4 @@ app = FastAPI()
 
 @app.get("/")
 async def health_check():
-    return "The helth check is successful!"
+    return "The helth check is successful!!!"
